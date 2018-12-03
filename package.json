@@ -1,0 +1,62 @@
+{
+  "name": "react-and-native",
+  "license": "MIT",
+  "main": "node_modules/expo/AppEntry.js",
+  "private": true,
+  "scripts": {
+    "mobile-start": "expo start",
+    "mobile-android": "expo start --android",
+    "mobile-ios": "expo start --ios",
+    "mobile-eject": "expo eject",
+    "flow start": "flow start",
+    "flow stop": "flow stop",
+    "flow status": "flow status",
+    "flow coverage": "flow coverage",
+    "test": "jest --config=.jest.json",
+    "web": "react-scripts start",
+    "web-build": "react-scripts build",
+    "web-test": "react-scripts test",
+    "web-eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "expo": "^30.0.1",
+    "expo-localization": "^1.0.0",
+    "i18n-js": "^3.1.0",
+    "react": "16.3.1",
+    "react-dom": "^16.6.3",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
+    "react-navigation": "^3.0.2",
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "^2.1.1",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-observable": "^1.0.0",
+    "rxjs": "^6.3.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^9.0.0",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "5.6.0",
+    "eslint-config-airbnb": "17.1.0",
+    "eslint-config-prettier": "^3.1.0",
+    "eslint-plugin-flowtype": "^3.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.0",
+    "flow-bin": "^0.83.0",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.3",
+    "prettier-eslint": "^8.8.2",
+    "react-test-renderer": "^16.5.2"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
